@@ -11,7 +11,7 @@ from tasks.serializers import TaskSerializer
 
 
 class TaskViewSet(viewsets.ModelViewSet):
-    """Manage tasks in the database"""
+    """Task ViewSet: Create, Read, Update, Delete"""
     serializer_class = TaskSerializer
     queryset = Task.objects.all()
     authentication_classes = (TokenAuthentication,)

@@ -41,6 +41,8 @@ INSTALLED_APPS = [
     'rest_framework',
     'rest_framework.authtoken',
 
+    'drf_yasg',
+
     'rest_auth',
 
     'users',
@@ -106,6 +108,24 @@ AUTH_PASSWORD_VALIDATORS = [
         'NAME': 'django.contrib.auth.password_validation.NumericPasswordValidator',
     },
 ]
+
+
+# REST Documentation
+SWAGGER_SETTINGS = {
+    'USE_SESSION_AUTH': False,
+    'SECURITY_DEFINITIONS': {
+        'Token format: Token XXXXXXXXXXXXXXXXXXXX': {
+            'type': 'apiKey',
+            # 'description': 'Token format: Token XXXXXXXXXXXXXXXXXXXX',
+            'name': 'Authorization',
+            'in': 'header',
+        }
+    },
+    'APIS_SORTER': 'alpha',
+    'SUPPORTED_SUBMIT_METHODS': ['get', 'post', 'put', 'delete', 'patch'],
+    'OPERATIONS_SORTER': 'alpha',
+    'REFETCH_SCHEMA_WITH_AUTH': True,
+}
 
 
 # Internationalization
