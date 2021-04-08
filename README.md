@@ -1,6 +1,7 @@
 # Todo API
-> Task API, with user and status management for each task.
-Made with Python-DjangoRestFramework
+Task API, with user and status management for each task.
+
+> Made with Python-DjangoRestFramework
 
 ## Table of contents
 * [General info](#general-info)
@@ -19,12 +20,19 @@ Add more general information about project. What the purpose of the project is? 
 ![Example screenshot](./img/screenshot.png)
 
 ## Technologies
-* Tech 1 - version 1.0
-* Tech 2 - version 2.0
-* Tech 3 - version 3.0
+* Python
+* Django
+* DjangoRestFramework
+* Heroku
+* Swagger UI Documentation
 
 ## Setup
-Describe how to install / setup your local environement / add link to demo version.
+Create a virtual environment
+# On macOS and Linux
+`python3 -m venv env`
+
+# On Windows
+`py -m venv env`
 
 ## Code Examples
 Show examples of usage:
