@@ -30,21 +30,17 @@ Task API, with user and status management, with tests and documentation
 
 ## Setup
 1. Clone and enter the repository:\
-```
-git clone https://github.com/Erick-ViBe/Todos-RESTAPI.git
-cd Todos-RESTAPI
-```
+`git clone https://github.com/Erick-ViBe/Todos-RESTAPI.git`\
+`cd Todos-RESTAPI`
 
-2. Creating a virtual environment:\
-`python3 -m venv env`
-
-3. Activating a virtual environment:\
+2. Create and activate virtual environment:\
+`python3 -m venv env`\
 `source env/bin/activate`
 
-4. Install all dependencies:\
+3. Install all dependencies:\
 `pip install -r requirements.txt`
 
-5. Apply migrations:\
+4. Apply migrations:\
 `python3 manage.py migrate`
 
 ## Run Project
