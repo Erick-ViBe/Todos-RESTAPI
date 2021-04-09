@@ -37,6 +37,8 @@ Task API, with user and status management, with tests and documentation
 `python3 -m venv env`\
 `source env/bin/activate`
 
+> To disable the virtual environment: `deactivate`
+
 3. Install all dependencies:\
 `pip install -r requirements.txt`
 
