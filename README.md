@@ -4,6 +4,7 @@ Task API, with user and status management for each task.
 
 ## Table of contents
 * [Technologies](#technologies)
+* [Requirements](#requirements)
 * [Setup](#setup)
 * [Run Project](#run-project)
 * [Run Tests](#run-tests)
@@ -20,15 +21,13 @@ Task API, with user and status management for each task.
 * Heroku
 * Swagger UI Documentation
 
-## Setup
-
-### Requirements
+## Requirements
 * Git
 * Python
 * pip
 * venv
 
-### In console:
+## Setup
 1. Creating a virtual environment:\
 `python3 -m venv env`
 
