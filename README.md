@@ -8,6 +8,7 @@ Task API, with user and status management, with tests and documentation
 * [Setup](#setup)
 * [Run Project](#run-project)
 * [Run Tests](#run-tests)
+* [Documentation](#documentation)
 * [Contact](#contact)
 
 <p align='center'>
@@ -28,16 +29,22 @@ Task API, with user and status management, with tests and documentation
 * venv
 
 ## Setup
-1. Creating a virtual environment:\
+1. Clone and enter the repository:\
+```
+git clone https://github.com/Erick-ViBe/Todos-RESTAPI.git
+cd Todos-RESTAPI
+```
+
+2. Creating a virtual environment:\
 `python3 -m venv env`
 
-2. Activating a virtual environment:\
+3. Activating a virtual environment:\
 `source env/bin/activate`
 
-3. Install all dependencies:\
+4. Install all dependencies:\
 `pip install -r requirements.txt`
 
-4. Apply migrations:\
+5. Apply migrations:\
 `python3 manage.py migrate`
 
 ## Run Project
@@ -51,4 +58,4 @@ Task API, with user and status management, with tests and documentation
 * [@JSON](https://todo-api-vibe.herokuapp.com/docs.json)
 
 ## Contact
-Created by [@ErickViBe](https://erickvibeportfolio.web.app/) - feel free to contact me!
+Created by [@ErickViBe](https://erickvibe.xyz/) - feel free to contact me!
