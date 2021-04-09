@@ -47,7 +47,7 @@ Task API, with user and status management for each task.
 `python3 manage.py test`
 
 ## Documentation
-* [@Swagger UI](https://todo-api-vibe.herokuapp.com/docs/) \
+* [@Swagger UI](https://todo-api-vibe.herokuapp.com/docs/)
 * [@JSON](https://todo-api-vibe.herokuapp.com/docs.json)
 
 ## Contact
