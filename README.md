@@ -1,5 +1,5 @@
 # Todo API
-Task API, with user and status management for each task.
+Task API, with user and status management, with tests and documentation
 > Made with Python-DjangoRestFramework
 
 ## Table of contents
