@@ -28,6 +28,7 @@ Task API, with user and status management for each task.
 * pip
 * venv
 
+### In console:
 1. Creating a virtual environment:\
 `python3 -m venv env`
 
