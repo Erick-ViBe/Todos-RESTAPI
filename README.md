@@ -6,8 +6,12 @@ Task API, with user and status management for each task.
 * [Technologies](#technologies)
 * [Setup](#setup)
 * [Run Project](#run-project)
-* [Run Tests](#run-test)
+* [Run Tests](#run-tests)
 * [Contact](#contact)
+
+<p align='center'>
+  <img src="https://miro.medium.com/max/4000/1*8ygFKYb0Yo6Hc-vnScGA9A.png" width="500" >
+</p>
 
 ## Technologies
 * Python
@@ -41,3 +45,10 @@ Task API, with user and status management for each task.
 
 ## Run Tests
 `python3 manage.py test`
+
+## Documentation
+[@Swagger UI](https://todo-api-vibe.herokuapp.com/docs/)
+[@JSON](https://todo-api-vibe.herokuapp.com/docs.json)
+
+## Contact
+Created by [@ErickViBe](https://erickvibeportfolio.web.app/) - feel free to contact me!
